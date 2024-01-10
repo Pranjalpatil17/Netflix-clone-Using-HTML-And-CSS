@@ -1,0 +1,129 @@
+@media screen and (max-width:1300px){
+    .header-content h1{
+        text-align: center;
+        font-size: 7vmin;
+        top:27%;
+        left:23%;
+    }
+    .header-content p{
+        font-size: 4vmin;
+        top:42%;
+        left:25%;
+        padding: 2rem;
+    }
+    .header-content input{
+        bottom:35%;
+        left:28%;
+        padding:1.4rem 2rem;
+        font-size: 4vmin;
+    }
+
+}
+
+@media screen and (max-width:991px){
+
+    html{
+        display: block;
+    }
+    .logo img{
+        left:5%;
+    }
+    .header-content h1{
+        text-align: center;
+        font-size: 7vmin;
+        top:27%;
+        left:23%;
+    }
+    .header-content p{
+        font-size: 4vmin;
+        top:42%;
+        left:25%;
+        padding: 2rem;
+    }
+    .header-content input{
+        bottom:38%;
+        left:31%;
+        padding:1.4rem 2rem;
+        font-size: 4vmin;
+    }
+
+
+    li{list-style:none;
+        margin:2rem 3rem;
+        font-size: 1rem;
+    }
+
+    .main-text p{
+        
+        font-size: 2rem;
+    }
+
+    .main-text input{
+        margin-top:5%;
+        border-radius: 5%;
+        color:whitesmoke;
+        padding:2%;
+        cursor:pointer;
+        font-size: 1rem;
+    }
+
+    .main-content{
+        padding: 0 21%;
+        
+    }
+    .main-image img{
+        width: 30rem;
+    }
+    .q-text h3{
+        color:#999;
+        font-size: 1rem;
+        margin-left:12%;
+        padding:0 16%;
+    }
+
+    .footer-list{
+        display:flex;
+        justify-content: space-around;
+        padding:2% 21%;
+        line-height: 2rem;
+    }
+ 
+}
+
+@media screen and (max-width: 767px){
+    .main-content{
+        flex-direction: column;
+    }
+
+    .main-image img{
+        width:30rem;
+        padding-left: 0;
+    }
+
+    
+   .lists li{list-style:none;
+        margin:1rem 2rem;
+    }
+
+    .footer-list{
+        display:flex;
+        /* justify-content: space-around; */
+        padding:2% 14%;
+        line-height: 2rem;
+    }
+    ul li a{
+        font-size: 1rem;
+    }
+    }
+
+    @media screen and (max-width:576px){
+        .header-content h1{
+            top:27%;
+            left:18%;
+        }
+
+        .header-content p{
+            top:42%;
+            left:22%;
+        }
+    }

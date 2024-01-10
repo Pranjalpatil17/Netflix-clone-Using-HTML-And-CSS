@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.background{
+    width:100vw;
+    height:100vh;
+    background-image: url('./img/background.jpg');
+}
+
+.background::after{
+    content:'';
+    position: absolute;
+    width:100vw;
+    height:100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+.header-content{
+    line-height: 3rem;
+}
+
+.header-content h1{
+    position:absolute;
+    top:25rem;
+    left:35rem;
+    padding: 5rem;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 11vmin;
+
+}
+
+.header-content p{
+    color:whitesmoke;
+    font-size: 6vmin;
+    position:absolute;
+    top:37rem;
+    left:35rem;
+    padding: 2rem;
+}
+
+.header-content input{
+    color:whitesmoke;
+    background-color: red;
+    font-size: 6vmin;
+    position:absolute;
+    bottom:19rem;
+    left:45rem;
+    padding:1.4rem 2rem;
+    cursor: pointer;
+}
+
+.logo img{
+    position: absolute;
+    top:0;
+    left:42%;
+    width:20rem;
+    height:6rem;
+    padding:1rem;
+}
+
+.btn-1 input{
+    position:absolute;
+    top:2rem;
+    right:3rem;
+    background-color: red;
+    color:white;
+    padding:1rem 2rem;
+    border-radius: 10%;
+    cursor:pointer;
+    
+}
+
+.bg-color{
+    background-color:#141414;
+    padding:1rem;
+}
+
+.lists ul{
+    display: flex;
+    justify-content: center;
+}
+
+.lists li{list-style:none;
+    margin:3rem 12rem;
+}
+
+.lists li a {
+    text-decoration: none;
+    color:#999;
+}
+
+.lists li a::after{
+    content:'';
+    width:0;
+    height:3px;
+    background-color:coral;
+    margin:auto;
+    display:block;
+}
+
+.lists li a:hover::after{
+    width:100%;
+    transition:width 0.3s linear;
+}
+
+main{
+    background-color: black;
+    padding:2rem 2rem;
+}
+.main-text p{
+    color:white;
+    font-size: 3rem;
+}
+.main-text input{
+
+    background-color: red;
+    margin-top:5rem;
+    color:whitesmoke;
+    padding:5% 5%;
+    cursor:pointer;
+    font-size: 2rem;
+}
+
+.main-content{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap:1rem;
+    padding: 10% 18%;
+}
+.main-image img{
+    width:40rem;
+    
+}
+.q-text h3{
+    color:#999;
+    font-size: 1.5rem;
+    margin-left:12rem;
+    padding:0 16rem;
+}
+footer{
+    background-color: black;
+    
+}
+.footer-list{
+    display:flex;
+    /* text-align: center; */
+    justify-content: space-around;
+    padding:2rem 21rem;
+    line-height: 3rem;
+}
+ul li a{
+    font-size: 1.5rem;
+    text-decoration-line: none;
+    color:#999;
+}
